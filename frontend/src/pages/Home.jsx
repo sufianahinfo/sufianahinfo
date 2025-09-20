@@ -18,7 +18,7 @@ const Home = () => {
         description: 'A captivating fragrance that captures the essence of desert nights',
         price: 890,
         originalPrice: 1770,
-        images: ['https://ik.imagekit.io/oqa1rxy6s/men/featured-perfume-1.jpg'],
+        images: ['https://ik.imagekit.io/oqa1rxy6s/assets/men/featured-perfume-1.jpg'],
         category: 'Men',
         isOnSale: true,
         stock: 50
@@ -30,7 +30,7 @@ const Home = () => {
         description: 'Rich coffee-inspired fragrance for the modern connoisseur',
         price: 890,
         originalPrice: 1770,
-        images: ['https://ik.imagekit.io/oqa1rxy6s/men/featured-perfume-1.jpg'],
+        images: ['https://ik.imagekit.io/oqa1rxy6s/assets/men/featured-perfume-1.jpg'],
         category: 'Unisex',
         isOnSale: true,
         stock: 30
@@ -42,7 +42,7 @@ const Home = () => {
         description: 'Elegant and sophisticated mist for special occasions',
         price: 890,
         originalPrice: 1680,
-        images: ['https://ik.imagekit.io/oqa1rxy6s/men/featured-perfume-1.jpg'],
+        images: ['https://ik.imagekit.io/oqa1rxy6s/assets/men/featured-perfume-1.jpg'],
         category: 'Women',
         isOnSale: true,
         stock: 25
@@ -54,7 +54,7 @@ const Home = () => {
         description: 'Exotic and alluring fragrance inspired by precious stones',
         price: 890,
         originalPrice: 1770,
-        images: ['https://ik.imagekit.io/oqa1rxy6s/men/featured-perfume-1.jpg'],
+        images: ['https://ik.imagekit.io/oqa1rxy6s/assets/men/featured-perfume-1.jpg'],
         category: 'Women',
         isOnSale: true,
         stock: 40
@@ -66,7 +66,7 @@ const Home = () => {
         description: 'Floral and delicate, perfect for everyday elegance',
         price: 890,
         originalPrice: 1680,
-        images: ['https://ik.imagekit.io/oqa1rxy6s/men/featured-perfume-1.jpg'],
+        images: ['https://ik.imagekit.io/oqa1rxy6s/assets/men/featured-perfume-1.jpg'],
         category: 'Women',
         isOnSale: true,
         stock: 35
@@ -78,7 +78,7 @@ const Home = () => {
         description: 'Bold and confident fragrance for the modern woman',
         price: 890,
         originalPrice: 1680,
-        images: ['https://ik.imagekit.io/oqa1rxy6s/men/featured-perfume-1.jpg'],
+        images: ['https://ik.imagekit.io/oqa1rxy6s/assets/men/featured-perfume-1.jpg'],
         category: 'Women',
         isOnSale: true,
         stock: 20
