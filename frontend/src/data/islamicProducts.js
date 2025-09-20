@@ -438,6 +438,70 @@ export const islamicProducts = {
       images: ['https://ik.imagekit.io/oqa1rxy6s/assets/unisex/sufianah-keychain-1.jpg'],
       inStock: true
     }
+  ],
+
+  // Unisex Fragrances
+  unisexFragrances: [
+    {
+      id: 'unisex-1',
+      title: 'Rose & Oud Blend',
+      description: 'Perfect unisex fragrance combining delicate rose with rich oud',
+      price: 380,
+      originalPrice: 480,
+      category: 'Unisex',
+      subcategory: 'Daily Wear',
+      fragranceFamily: 'Floral',
+      season: 'All Season',
+      type: 'Eau de Parfum',
+      images: ['https://ik.imagekit.io/oqa1rxy6s/assets/unisex/rose-oud-blend.jpg'],
+      inStock: true,
+      isIslamic: true
+    },
+    {
+      id: 'unisex-2',
+      title: 'Sandalwood & Musk',
+      description: 'Classic unisex blend of sandalwood and white musk',
+      price: 320,
+      originalPrice: 420,
+      category: 'Unisex',
+      subcategory: 'Daily Wear',
+      fragranceFamily: 'Woody',
+      season: 'All Season',
+      type: 'Attars / Oils',
+      images: ['https://ik.imagekit.io/oqa1rxy6s/assets/unisex/sandalwood-musk.jpg'],
+      inStock: true,
+      isIslamic: true
+    },
+    {
+      id: 'unisex-3',
+      title: 'Amber & Vanilla',
+      description: 'Warm and inviting unisex fragrance with amber and vanilla notes',
+      price: 450,
+      originalPrice: 580,
+      category: 'Unisex',
+      subcategory: 'Premium',
+      fragranceFamily: 'Oriental',
+      season: 'Winter',
+      type: 'Eau de Parfum',
+      images: ['https://ik.imagekit.io/oqa1rxy6s/assets/unisex/amber-vanilla.jpg'],
+      inStock: true,
+      isIslamic: true
+    },
+    {
+      id: 'unisex-4',
+      title: 'Citrus & Mint',
+      description: 'Fresh and energizing unisex fragrance perfect for summer',
+      price: 280,
+      originalPrice: 380,
+      category: 'Unisex',
+      subcategory: 'Daily Wear',
+      fragranceFamily: 'Fresh / Citrus',
+      season: 'Summer',
+      type: 'Body Mists',
+      images: ['https://ik.imagekit.io/oqa1rxy6s/assets/unisex/citrus-mint.jpg'],
+      inStock: true,
+      isIslamic: true
+    }
   ]
 };
 
@@ -454,6 +518,9 @@ export const getAllProducts = () => {
   Object.values(islamicProducts.womensFragrances).forEach(category => {
     allProducts.push(...category);
   });
+  
+  // Add unisex fragrances
+  allProducts.push(...islamicProducts.unisexFragrances);
   
   // Add other categories
   allProducts.push(...islamicProducts.islamicCaps);

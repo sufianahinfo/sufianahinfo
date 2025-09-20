@@ -210,6 +210,81 @@ const Home = () => {
         </div>
       </section>
 
+      {/* Men's Fragrances Section */}
+      <section className="mens-fragrances-section">
+        <div className="container">
+          <h2 className="section-title">Men's Fragrances</h2>
+          <p className="text-center mb-8" style={{ color: 'var(--text-muted)', fontSize: '1.125rem' }}>
+            Discover our premium collection of Islamic and traditional fragrances for men
+          </p>
+          
+          <div className="product-grid">
+            {getAllProducts()
+              .filter(product => product.category === 'Men')
+              .slice(0, 4)
+              .map((product) => (
+                <ProductCard key={product.id} product={product} />
+              ))}
+          </div>
+
+          <div className="text-center mt-8">
+            <Link to="/catalog/men" className="btn btn-primary">
+              View All Men's Fragrances
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Women's Fragrances Section */}
+      <section className="womens-fragrances-section">
+        <div className="container">
+          <h2 className="section-title">Women's Fragrances</h2>
+          <p className="text-center mb-8" style={{ color: 'var(--text-muted)', fontSize: '1.125rem' }}>
+            Elegant and subtle fragrances perfect for Muslim women's daily and special occasions
+          </p>
+          
+          <div className="product-grid">
+            {getAllProducts()
+              .filter(product => product.category === 'Women')
+              .slice(0, 4)
+              .map((product) => (
+                <ProductCard key={product.id} product={product} />
+              ))}
+          </div>
+
+          <div className="text-center mt-8">
+            <Link to="/catalog/women" className="btn btn-primary">
+              View All Women's Fragrances
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Unisex Fragrances Section */}
+      <section className="unisex-fragrances-section">
+        <div className="container">
+          <h2 className="section-title">Unisex Fragrances</h2>
+          <p className="text-center mb-8" style={{ color: 'var(--text-muted)', fontSize: '1.125rem' }}>
+            Versatile fragrances suitable for both men and women
+          </p>
+          
+          <div className="product-grid">
+            {getAllProducts()
+              .filter(product => product.category === 'Unisex')
+              .slice(0, 4)
+              .map((product) => (
+                <ProductCard key={product.id} product={product} />
+              ))}
+          </div>
+
+          <div className="text-center mt-8">
+            <Link to="/catalog" className="btn btn-primary">
+              View All Unisex Fragrances
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* Gift Sets Section */}
       <section className="gift-sets-section" style={{ padding: '4rem 0', backgroundColor: 'var(--white)' }}>
         <div className="container">
