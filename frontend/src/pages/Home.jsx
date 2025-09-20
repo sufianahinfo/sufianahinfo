@@ -90,12 +90,11 @@ const Home = () => {
     
     // Select featured products (mix of different categories)
     const featured = [
-      allProducts.find(p => p.id === 'mens-daily-1'), // Oud Al Aswad
-      allProducts.find(p => p.id === 'womens-daily-1'), // Jasmine Delight
-      allProducts.find(p => p.id === 'prayer-mat-1'), // Premium Prayer Mat
-      allProducts.find(p => p.id === 'miswaak-arak'), // Arak Miswaak
-      allProducts.find(p => p.id === 'cap-1'), // Embroidered Kufi Cap
-      allProducts.find(p => p.id === 'ring-men-1') // Men's Silver Ring
+      allProducts.find(p => p.id === 'mens-daily-1'), // Blue Desert
+      allProducts.find(p => p.id === 'mens-daily-2'), // Marjan
+      allProducts.find(p => p.id === 'womens-daily-1'), // Floral Green
+      allProducts.find(p => p.id === 'womens-daily-2'), // Senorita
+      allProducts.find(p => p.id === 'unisex-1') // Luxe
     ].filter(Boolean) // Remove any undefined products
 
     // Simulate API call
@@ -125,9 +124,49 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </section>
+          </section>
 
-      {/* Featured Categories Section */}
+          {/* Fragrance Showcase Section */}
+          <section className="fragrance-showcase-section">
+            <div className="container">
+              <h2 className="showcase-title">Sufianah Elegant Collection</h2>
+              <p className="showcase-subtitle">
+                Experience the perfect blend of tradition and luxury with our signature fragrance collection
+              </p>
+              
+              <div className="showcase-grid">
+                <div className="showcase-item">
+                  <div className="showcase-image-container">
+                    <img 
+                      src="https://ik.imagekit.io/oqa1rxy6s/assets/showcase/blackbox.jpeg" 
+                      alt="Sufianah Elegant Black Box" 
+                      className="showcase-image"
+                    />
+                    <div className="showcase-overlay">
+                      <h3 className="showcase-item-title">Elegant Black</h3>
+                      <p className="showcase-item-description">Premium black box collection - sophisticated and timeless</p>
+                    </div>
+                  </div>
+                </div>
+                
+                <div className="showcase-item">
+                  <div className="showcase-image-container">
+                    <img 
+                      src="https://ik.imagekit.io/oqa1rxy6s/assets/showcase/whitebox.jpeg" 
+                      alt="Sufianah Elegant White Box" 
+                      className="showcase-image"
+                    />
+                    <div className="showcase-overlay">
+                      <h3 className="showcase-item-title">Elegant White</h3>
+                      <p className="showcase-item-description">Pure white box collection - elegant and refined</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          {/* Featured Categories Section */}
       <section className="featured-section">
         <div className="container">
           <h2 className="section-title">Our Islamic Collections</h2>

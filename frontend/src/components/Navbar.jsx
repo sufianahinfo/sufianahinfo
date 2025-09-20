@@ -9,6 +9,7 @@ const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const [isLoggedIn, setIsLoggedIn] = useState(false)
   const [activeDropdown, setActiveDropdown] = useState(null)
+  const [activeMobileDropdown, setActiveMobileDropdown] = useState(null)
   const { cartItems } = useContext(CartContext)
   const navigate = useNavigate()
 
@@ -16,6 +17,10 @@ const Navbar = () => {
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen)
+    // Close mobile dropdowns when menu closes
+    if (isMenuOpen) {
+      setActiveMobileDropdown(null)
+    }
   }
 
   const handleLogout = () => {
@@ -26,6 +31,10 @@ const Navbar = () => {
 
   const handleDropdownToggle = (dropdown) => {
     setActiveDropdown(activeDropdown === dropdown ? null : dropdown)
+  }
+
+  const handleMobileDropdownToggle = (dropdown) => {
+    setActiveMobileDropdown(activeMobileDropdown === dropdown ? null : dropdown)
   }
 
   return (
@@ -160,22 +169,106 @@ const Navbar = () => {
         </div>
 
         {/* Mobile Navigation */}
-        {isMenuOpen && (
-          <div className="mobile-nav">
-            <Link to="/" className="mobile-nav-link" onClick={() => setIsMenuOpen(false)}>Home</Link>
-            <Link to="/catalog" className="mobile-nav-link" onClick={() => setIsMenuOpen(false)}>Catalog</Link>
-            <Link to="/contact" className="mobile-nav-link" onClick={() => setIsMenuOpen(false)}>Contact</Link>
-            <div className="mobile-nav-divider"></div>
-            {isLoggedIn ? (
-              <>
-                <Link to="/admin/dashboard" className="mobile-nav-link" onClick={() => setIsMenuOpen(false)}>Admin Dashboard</Link>
-                <button onClick={handleLogout} className="mobile-nav-link logout-btn">Logout</button>
-              </>
-            ) : (
-              <Link to="/admin/login" className="mobile-nav-link" onClick={() => setIsMenuOpen(false)}>Log in</Link>
-            )}
+        <div className={`mobile-nav ${isMenuOpen ? 'open' : ''}`}>
+          <Link to="/" className="mobile-nav-link" onClick={() => setIsMenuOpen(false)}>Home</Link>
+          
+          {/* Mobile Men's Fragrances */}
+          <div className={`mobile-dropdown ${activeMobileDropdown === 'mens' ? 'open' : ''}`}>
+            <span 
+              className="mobile-dropdown-trigger" 
+              onClick={() => handleMobileDropdownToggle('mens')}
+            >
+              Men's Fragrances
+            </span>
+            <div className="mobile-dropdown-content">
+              <Link to="/catalog/men/daily-wear" className="mobile-dropdown-link" onClick={() => setIsMenuOpen(false)}>Daily Wear</Link>
+              <Link to="/catalog/men/office-wear" className="mobile-dropdown-link" onClick={() => setIsMenuOpen(false)}>Office Wear</Link>
+              <Link to="/catalog/men/party-wear" className="mobile-dropdown-link" onClick={() => setIsMenuOpen(false)}>Party Wear</Link>
+              <Link to="/catalog/men/premium" className="mobile-dropdown-link" onClick={() => setIsMenuOpen(false)}>Premium</Link>
+              <Link to="/catalog/men/islamic" className="mobile-dropdown-link" onClick={() => setIsMenuOpen(false)}>Islamic</Link>
+            </div>
           </div>
-        )}
+
+          {/* Mobile Women's Fragrances */}
+          <div className={`mobile-dropdown ${activeMobileDropdown === 'womens' ? 'open' : ''}`}>
+            <span 
+              className="mobile-dropdown-trigger" 
+              onClick={() => handleMobileDropdownToggle('womens')}
+            >
+              Women's Fragrances
+            </span>
+            <div className="mobile-dropdown-content">
+              <Link to="/catalog/women/daily-wear" className="mobile-dropdown-link" onClick={() => setIsMenuOpen(false)}>Daily Wear</Link>
+              <Link to="/catalog/women/office-wear" className="mobile-dropdown-link" onClick={() => setIsMenuOpen(false)}>Office Wear</Link>
+              <Link to="/catalog/women/party-wear" className="mobile-dropdown-link" onClick={() => setIsMenuOpen(false)}>Party Wear</Link>
+              <Link to="/catalog/women/premium" className="mobile-dropdown-link" onClick={() => setIsMenuOpen(false)}>Premium</Link>
+              <Link to="/catalog/women/islamic" className="mobile-dropdown-link" onClick={() => setIsMenuOpen(false)}>Islamic</Link>
+            </div>
+          </div>
+
+          {/* Mobile Islamic Items */}
+          <div className={`mobile-dropdown ${activeMobileDropdown === 'islamic' ? 'open' : ''}`}>
+            <span 
+              className="mobile-dropdown-trigger" 
+              onClick={() => handleMobileDropdownToggle('islamic')}
+            >
+              Islamic Items
+            </span>
+            <div className="mobile-dropdown-content">
+              <Link to="/catalog/islamic-caps" className="mobile-dropdown-link" onClick={() => setIsMenuOpen(false)}>Islamic Caps</Link>
+              <Link to="/catalog/abaya-jibabs" className="mobile-dropdown-link" onClick={() => setIsMenuOpen(false)}>Abaya & Jibabs</Link>
+              <Link to="/catalog/hijabs-scarves" className="mobile-dropdown-link" onClick={() => setIsMenuOpen(false)}>Hijabs & Scarves</Link>
+              <Link to="/catalog/niqabs" className="mobile-dropdown-link" onClick={() => setIsMenuOpen(false)}>Niqabs</Link>
+              <Link to="/catalog/rings" className="mobile-dropdown-link" onClick={() => setIsMenuOpen(false)}>Rings (Silver)</Link>
+            </div>
+          </div>
+
+          {/* Mobile Prayer Items */}
+          <div className={`mobile-dropdown ${activeMobileDropdown === 'prayer' ? 'open' : ''}`}>
+            <span 
+              className="mobile-dropdown-trigger" 
+              onClick={() => handleMobileDropdownToggle('prayer')}
+            >
+              Prayer Items
+            </span>
+            <div className="mobile-dropdown-content">
+              <Link to="/catalog/prayer-mats" className="mobile-dropdown-link" onClick={() => setIsMenuOpen(false)}>Prayer Mats</Link>
+              <Link to="/catalog/digital-tasbeeh" className="mobile-dropdown-link" onClick={() => setIsMenuOpen(false)}>Digital Tasbeeh</Link>
+              <Link to="/catalog/prayer-beads" className="mobile-dropdown-link" onClick={() => setIsMenuOpen(false)}>Prayer Beads</Link>
+              <Link to="/catalog/qibla-compass" className="mobile-dropdown-link" onClick={() => setIsMenuOpen(false)}>Qibla Compass</Link>
+              <Link to="/catalog/miswaak" className="mobile-dropdown-link" onClick={() => setIsMenuOpen(false)}>Miswaak</Link>
+              <Link to="/catalog/keychains" className="mobile-dropdown-link" onClick={() => setIsMenuOpen(false)}>Sufianah Keychains</Link>
+            </div>
+          </div>
+
+          <Link to="/contact" className="mobile-nav-link" onClick={() => setIsMenuOpen(false)}>Contact</Link>
+          
+          <div className="mobile-nav-divider"></div>
+          
+          {/* Mobile Search */}
+          <div className="mobile-search-container">
+            <input 
+              type="text" 
+              placeholder="Search fragrances..." 
+              className="mobile-search-input"
+            />
+            <button className="mobile-search-btn">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                <circle cx="11" cy="11" r="8"></circle>
+                <path d="m21 21-4.35-4.35"></path>
+              </svg>
+            </button>
+          </div>
+
+          {isLoggedIn ? (
+            <>
+              <Link to="/admin/dashboard" className="mobile-nav-link" onClick={() => setIsMenuOpen(false)}>Admin Dashboard</Link>
+              <button onClick={handleLogout} className="mobile-nav-link logout-btn">Logout</button>
+            </>
+          ) : (
+            <Link to="/admin/login" className="mobile-nav-link" onClick={() => setIsMenuOpen(false)}>Log in</Link>
+          )}
+        </div>
       </div>
 
     </nav>

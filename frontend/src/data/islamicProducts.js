@@ -48,7 +48,7 @@ export const islamicProducts = {
         fragranceFamily: 'Woody',
         season: 'All Season',
         type: 'Attars / Oils',
-        images: ['https://ik.imagekit.io/oqa1rxy6s/assets/women/coming-soon.jpg'],
+        images: ['https://ik.imagekit.io/oqa1rxy6s/assets/logo/sufianah-logo.png'],
         inStock: true,
         isIslamic: true
       },
@@ -80,7 +80,7 @@ export const islamicProducts = {
         fragranceFamily: 'Woody',
         season: 'All Season',
         type: 'Eau de Parfum',
-        images: ['https://ik.imagekit.io/oqa1rxy6s/assets/men/coming-soon.jpg'],
+        images: ['https://ik.imagekit.io/oqa1rxy6s/assets/logo/sufianah-logo.png'],
         inStock: false,
         isIslamic: true,
         isComingSoon: true
@@ -98,7 +98,7 @@ export const islamicProducts = {
         fragranceFamily: 'Oriental',
         season: 'Winter',
         type: 'Eau de Parfum',
-        images: ['https://ik.imagekit.io/oqa1rxy6s/assets/men/coming-soon.jpg'],
+        images: ['https://ik.imagekit.io/oqa1rxy6s/assets/logo/sufianah-logo.png'],
         inStock: false,
         isIslamic: true,
         isComingSoon: true
@@ -116,7 +116,7 @@ export const islamicProducts = {
         fragranceFamily: 'Woody',
         season: 'All Season',
         type: 'Attars / Oils',
-        images: ['https://ik.imagekit.io/oqa1rxy6s/assets/men/coming-soon.jpg'],
+        images: ['https://ik.imagekit.io/oqa1rxy6s/assets/logo/sufianah-logo.png'],
         inStock: false,
         isIslamic: true,
         isComingSoon: true
@@ -134,7 +134,7 @@ export const islamicProducts = {
         fragranceFamily: 'Oriental',
         season: 'All Season',
         type: 'Attars / Oils',
-        images: ['https://ik.imagekit.io/oqa1rxy6s/assets/men/coming-soon.jpg'],
+        images: ['https://ik.imagekit.io/oqa1rxy6s/assets/logo/sufianah-logo.png'],
         inStock: false,
         isIslamic: true,
         isComingSoon: true
@@ -188,7 +188,7 @@ export const islamicProducts = {
         fragranceFamily: 'Fresh / Citrus',
         season: 'All Season',
         type: 'Eau de Toilette',
-        images: ['https://ik.imagekit.io/oqa1rxy6s/assets/women/coming-soon.jpg'],
+        images: ['https://ik.imagekit.io/oqa1rxy6s/assets/logo/sufianah-logo.png'],
         inStock: false,
         isIslamic: true,
         isComingSoon: true
@@ -206,7 +206,7 @@ export const islamicProducts = {
         fragranceFamily: 'Floral',
         season: 'All Season',
         type: 'Eau de Parfum',
-        images: ['https://ik.imagekit.io/oqa1rxy6s/assets/women/coming-soon.jpg'],
+        images: ['https://ik.imagekit.io/oqa1rxy6s/assets/logo/sufianah-logo.png'],
         inStock: true,
         isIslamic: true
       }
@@ -223,7 +223,7 @@ export const islamicProducts = {
         fragranceFamily: 'Oriental',
         season: 'All Season',
         type: 'Eau de Parfum',
-        images: ['https://ik.imagekit.io/oqa1rxy6s/assets/women/coming-soon.jpg'],
+        images: ['https://ik.imagekit.io/oqa1rxy6s/assets/logo/sufianah-logo.png'],
         inStock: true,
         isIslamic: true
       }
@@ -240,7 +240,7 @@ export const islamicProducts = {
         fragranceFamily: 'Floral',
         season: 'All Season',
         type: 'Attars / Oils',
-        images: ['https://ik.imagekit.io/oqa1rxy6s/assets/women/coming-soon.jpg'],
+        images: ['https://ik.imagekit.io/oqa1rxy6s/assets/logo/sufianah-logo.png'],
         inStock: true,
         isIslamic: true
       }
@@ -257,7 +257,7 @@ export const islamicProducts = {
       originalPrice: 65,
       category: 'Islamic Items',
       subcategory: 'Islamic Caps',
-      images: ['https://ik.imagekit.io/oqa1rxy6s/assets/logo/islamic-cap-1.jpg'],
+      images: ['https://ik.imagekit.io/oqa1rxy6s/assets/logo/sufianah-logo.png'],
       inStock: true,
       sizes: ['S', 'M', 'L', 'XL'],
       colors: ['White', 'Black', 'Navy', 'Brown']
@@ -270,7 +270,7 @@ export const islamicProducts = {
       originalPrice: 75,
       category: 'Islamic Items',
       subcategory: 'Islamic Caps',
-      images: ['https://ik.imagekit.io/oqa1rxy6s/assets/logo/islamic-cap-1.jpg'],
+      images: ['https://ik.imagekit.io/oqa1rxy6s/assets/logo/sufianah-logo.png'],
       inStock: true,
       sizes: ['S', 'M', 'L', 'XL'],
       colors: ['White', 'Black', 'Navy', 'Brown']
@@ -286,7 +286,7 @@ export const islamicProducts = {
       originalPrice: 180,
       category: 'Islamic Items',
       subcategory: 'Abaya & Jibabs',
-      images: ['https://ik.imagekit.io/oqa1rxy6s/assets/women/abaya-1.jpg'],
+      images: ['https://ik.imagekit.io/oqa1rxy6s/assets/logo/sufianah-logo.png'],
       inStock: true,
       sizes: ['S', 'M', 'L', 'XL', 'XXL'],
       colors: ['Black', 'Navy', 'Brown', 'Gray']
@@ -302,7 +302,7 @@ export const islamicProducts = {
       originalPrice: 35,
       category: 'Islamic Items',
       subcategory: 'Hijabs & Scarves',
-      images: ['https://ik.imagekit.io/oqa1rxy6s/assets/women/hijab-1.jpg'],
+      images: ['https://ik.imagekit.io/oqa1rxy6s/assets/logo/sufianah-logo.png'],
       inStock: true,
       colors: ['White', 'Black', 'Navy', 'Brown', 'Gray', 'Pink', 'Blue']
     }
@@ -318,7 +318,7 @@ export const islamicProducts = {
       originalPrice: 50,
       category: 'Prayer Items',
       subcategory: 'Prayer Mats',
-      images: ['https://ik.imagekit.io/oqa1rxy6s/assets/unisex/prayer-mat-1.jpg'],
+      images: ['https://ik.imagekit.io/oqa1rxy6s/assets/logo/sufianah-logo.png'],
       inStock: true,
       colors: ['Green', 'Blue', 'Red', 'Brown']
     }
@@ -333,7 +333,7 @@ export const islamicProducts = {
       originalPrice: 65,
       category: 'Prayer Items',
       subcategory: 'Digital Tasbeeh',
-      images: ['https://ik.imagekit.io/oqa1rxy6s/assets/unisex/digital-tasbeeh-1.jpg'],
+      images: ['https://ik.imagekit.io/oqa1rxy6s/assets/logo/sufianah-logo.png'],
       inStock: true
     }
   ],
@@ -348,7 +348,7 @@ export const islamicProducts = {
       category: 'Prayer Items',
       subcategory: 'Miswaak',
       type: 'Arak Miswak (peelu)',
-      images: ['https://ik.imagekit.io/oqa1rxy6s/assets/unisex/miswaak-1.jpg'],
+      images: ['https://ik.imagekit.io/oqa1rxy6s/assets/logo/sufianah-logo.png'],
       inStock: true
     },
     {
@@ -360,7 +360,7 @@ export const islamicProducts = {
       category: 'Prayer Items',
       subcategory: 'Miswaak',
       type: 'Olive Miswak (Zaintoon)',
-      images: ['https://ik.imagekit.io/oqa1rxy6s/assets/unisex/miswaak-1.jpg'],
+      images: ['https://ik.imagekit.io/oqa1rxy6s/assets/logo/sufianah-logo.png'],
       inStock: true
     },
     {
@@ -372,7 +372,7 @@ export const islamicProducts = {
       category: 'Prayer Items',
       subcategory: 'Miswaak',
       type: 'Neem Miswak',
-      images: ['https://ik.imagekit.io/oqa1rxy6s/assets/unisex/miswaak-1.jpg'],
+      images: ['https://ik.imagekit.io/oqa1rxy6s/assets/logo/sufianah-logo.png'],
       inStock: true
     },
     {
@@ -384,7 +384,7 @@ export const islamicProducts = {
       category: 'Prayer Items',
       subcategory: 'Miswaak',
       type: 'Drumstick Miswak (Sukhchain)',
-      images: ['https://ik.imagekit.io/oqa1rxy6s/assets/unisex/miswaak-1.jpg'],
+      images: ['https://ik.imagekit.io/oqa1rxy6s/assets/logo/sufianah-logo.png'],
       inStock: true
     },
     {
@@ -396,7 +396,7 @@ export const islamicProducts = {
       category: 'Prayer Items',
       subcategory: 'Miswaak',
       type: 'Moringa Tree Miswaak',
-      images: ['https://ik.imagekit.io/oqa1rxy6s/assets/unisex/miswaak-1.jpg'],
+      images: ['https://ik.imagekit.io/oqa1rxy6s/assets/logo/sufianah-logo.png'],
       inStock: true
     }
   ],
@@ -412,7 +412,7 @@ export const islamicProducts = {
       category: 'Islamic Items',
       subcategory: 'Rings (Silver)',
       gender: 'Men',
-      images: ['https://ik.imagekit.io/oqa1rxy6s/assets/unisex/silver-ring-1.jpg'],
+      images: ['https://ik.imagekit.io/oqa1rxy6s/assets/logo/sufianah-logo.png'],
       inStock: true,
       sizes: ['6', '7', '8', '9', '10', '11']
     },
@@ -425,7 +425,7 @@ export const islamicProducts = {
       category: 'Islamic Items',
       subcategory: 'Rings (Silver)',
       gender: 'Women',
-      images: ['https://ik.imagekit.io/oqa1rxy6s/assets/unisex/silver-ring-1.jpg'],
+      images: ['https://ik.imagekit.io/oqa1rxy6s/assets/logo/sufianah-logo.png'],
       inStock: true,
       sizes: ['5', '6', '7', '8', '9']
     }
@@ -441,7 +441,7 @@ export const islamicProducts = {
       originalPrice: 90,
       category: 'Prayer Items',
       subcategory: 'Qibla Compass',
-      images: ['https://ik.imagekit.io/oqa1rxy6s/assets/unisex/qibla-compass-1.jpg'],
+      images: ['https://ik.imagekit.io/oqa1rxy6s/assets/logo/sufianah-logo.png'],
       inStock: true
     }
   ],
@@ -455,7 +455,7 @@ export const islamicProducts = {
       originalPrice: 25,
       category: 'Prayer Items',
       subcategory: 'Sufianah Keychains',
-      images: ['https://ik.imagekit.io/oqa1rxy6s/assets/unisex/sufianah-keychain-1.jpg'],
+      images: ['https://ik.imagekit.io/oqa1rxy6s/assets/logo/sufianah-logo.png'],
       inStock: true
     }
   ],
@@ -488,7 +488,7 @@ export const islamicProducts = {
       fragranceFamily: 'Woody',
       season: 'All Season',
       type: 'Attars / Oils',
-      images: ['https://ik.imagekit.io/oqa1rxy6s/assets/unisex/coming-soon.jpg'],
+        images: ['https://ik.imagekit.io/oqa1rxy6s/assets/logo/sufianah-logo.png'],
       inStock: false,
       isIslamic: true,
       isComingSoon: true
@@ -504,7 +504,7 @@ export const islamicProducts = {
       fragranceFamily: 'Oriental',
       season: 'Winter',
       type: 'Eau de Parfum',
-      images: ['https://ik.imagekit.io/oqa1rxy6s/assets/unisex/coming-soon.jpg'],
+        images: ['https://ik.imagekit.io/oqa1rxy6s/assets/logo/sufianah-logo.png'],
       inStock: false,
       isIslamic: true,
       isComingSoon: true
@@ -520,7 +520,7 @@ export const islamicProducts = {
       fragranceFamily: 'Fresh / Citrus',
       season: 'Summer',
       type: 'Body Mists',
-      images: ['https://ik.imagekit.io/oqa1rxy6s/assets/unisex/coming-soon.jpg'],
+        images: ['https://ik.imagekit.io/oqa1rxy6s/assets/logo/sufianah-logo.png'],
       inStock: false,
       isIslamic: true,
       isComingSoon: true
