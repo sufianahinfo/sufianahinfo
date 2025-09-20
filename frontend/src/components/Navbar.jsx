@@ -1,8 +1,8 @@
 import { useState, useContext } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { CartContext } from '../context/CartContext'
-// Using local SVG logo
-const logoImage = '/sufianah-logo.svg'
+// Using ImageKit URL for logo
+const logoImage = 'https://ik.imagekit.io/oqa1rxy6s/assets/logo/sufianah-logo.png'
 import './Navbar.css'
 
 const Navbar = () => {
