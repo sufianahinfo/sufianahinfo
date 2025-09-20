@@ -48,7 +48,7 @@ export const islamicProducts = {
         fragranceFamily: 'Woody',
         season: 'All Season',
         type: 'Attars / Oils',
-        images: ['/placeholder-perfume.jpg'],
+        images: ['https://ik.imagekit.io/oqa1rxy6s/men/oud-al-aswad.jpg'],
         inStock: true,
         isIslamic: true
       },
@@ -63,7 +63,7 @@ export const islamicProducts = {
         fragranceFamily: 'Floral',
         season: 'Summer',
         type: 'Attars / Oils',
-        images: ['/placeholder-perfume.jpg'],
+        images: ['https://ik.imagekit.io/oqa1rxy6s/men/oud-al-aswad.jpg'],
         inStock: true,
         isIslamic: true
       }
@@ -80,7 +80,7 @@ export const islamicProducts = {
         fragranceFamily: 'Woody',
         season: 'All Season',
         type: 'Eau de Parfum',
-        images: ['/placeholder-perfume.jpg'],
+        images: ['https://ik.imagekit.io/oqa1rxy6s/men/oud-al-aswad.jpg'],
         inStock: true,
         isIslamic: true
       }
@@ -97,7 +97,7 @@ export const islamicProducts = {
         fragranceFamily: 'Oriental',
         season: 'Winter',
         type: 'Eau de Parfum',
-        images: ['/placeholder-perfume.jpg'],
+        images: ['https://ik.imagekit.io/oqa1rxy6s/men/oud-al-aswad.jpg'],
         inStock: true,
         isIslamic: true
       }
@@ -114,7 +114,7 @@ export const islamicProducts = {
         fragranceFamily: 'Woody',
         season: 'All Season',
         type: 'Attars / Oils',
-        images: ['/placeholder-perfume.jpg'],
+        images: ['https://ik.imagekit.io/oqa1rxy6s/men/oud-al-aswad.jpg'],
         inStock: true,
         isIslamic: true
       }
@@ -131,7 +131,7 @@ export const islamicProducts = {
         fragranceFamily: 'Oriental',
         season: 'All Season',
         type: 'Attars / Oils',
-        images: ['/placeholder-perfume.jpg'],
+        images: ['https://ik.imagekit.io/oqa1rxy6s/men/oud-al-aswad.jpg'],
         inStock: true,
         isIslamic: true
       }
@@ -152,7 +152,7 @@ export const islamicProducts = {
         fragranceFamily: 'Floral',
         season: 'Summer',
         type: 'Eau de Toilette',
-        images: ['/placeholder-perfume.jpg'],
+        images: ['https://ik.imagekit.io/oqa1rxy6s/men/oud-al-aswad.jpg'],
         inStock: true,
         isIslamic: true
       }
@@ -169,7 +169,7 @@ export const islamicProducts = {
         fragranceFamily: 'Fresh / Citrus',
         season: 'All Season',
         type: 'Eau de Toilette',
-        images: ['/placeholder-perfume.jpg'],
+        images: ['https://ik.imagekit.io/oqa1rxy6s/men/oud-al-aswad.jpg'],
         inStock: true,
         isIslamic: true
       }
@@ -186,7 +186,7 @@ export const islamicProducts = {
         fragranceFamily: 'Floral',
         season: 'All Season',
         type: 'Eau de Parfum',
-        images: ['/placeholder-perfume.jpg'],
+        images: ['https://ik.imagekit.io/oqa1rxy6s/men/oud-al-aswad.jpg'],
         inStock: true,
         isIslamic: true
       }
@@ -203,7 +203,7 @@ export const islamicProducts = {
         fragranceFamily: 'Oriental',
         season: 'All Season',
         type: 'Eau de Parfum',
-        images: ['/placeholder-perfume.jpg'],
+        images: ['https://ik.imagekit.io/oqa1rxy6s/men/oud-al-aswad.jpg'],
         inStock: true,
         isIslamic: true
       }
@@ -220,7 +220,7 @@ export const islamicProducts = {
         fragranceFamily: 'Floral',
         season: 'All Season',
         type: 'Attars / Oils',
-        images: ['/placeholder-perfume.jpg'],
+        images: ['https://ik.imagekit.io/oqa1rxy6s/men/oud-al-aswad.jpg'],
         inStock: true,
         isIslamic: true
       }
@@ -237,7 +237,7 @@ export const islamicProducts = {
       originalPrice: 65,
       category: 'Islamic Items',
       subcategory: 'Islamic Caps',
-      images: ['/placeholder-cap.jpg'],
+      images: ['https://ik.imagekit.io/oqa1rxy6s/logo/islamic-cap-1.jpg'],
       inStock: true,
       sizes: ['S', 'M', 'L', 'XL'],
       colors: ['White', 'Black', 'Navy', 'Brown']
@@ -250,7 +250,7 @@ export const islamicProducts = {
       originalPrice: 75,
       category: 'Islamic Items',
       subcategory: 'Islamic Caps',
-      images: ['/placeholder-cap.jpg'],
+      images: ['https://ik.imagekit.io/oqa1rxy6s/logo/islamic-cap-1.jpg'],
       inStock: true,
       sizes: ['S', 'M', 'L', 'XL'],
       colors: ['White', 'Black', 'Navy', 'Brown']
@@ -266,7 +266,7 @@ export const islamicProducts = {
       originalPrice: 180,
       category: 'Islamic Items',
       subcategory: 'Abaya & Jibabs',
-      images: ['/placeholder-abaya.jpg'],
+      images: ['https://ik.imagekit.io/oqa1rxy6s/women/abaya-1.jpg'],
       inStock: true,
       sizes: ['S', 'M', 'L', 'XL', 'XXL'],
       colors: ['Black', 'Navy', 'Brown', 'Gray']
@@ -282,7 +282,7 @@ export const islamicProducts = {
       originalPrice: 35,
       category: 'Islamic Items',
       subcategory: 'Hijabs & Scarves',
-      images: ['/placeholder-hijab.jpg'],
+      images: ['https://ik.imagekit.io/oqa1rxy6s/women/hijab-1.jpg'],
       inStock: true,
       colors: ['White', 'Black', 'Navy', 'Brown', 'Gray', 'Pink', 'Blue']
     }
@@ -298,7 +298,7 @@ export const islamicProducts = {
       originalPrice: 50,
       category: 'Prayer Items',
       subcategory: 'Prayer Mats',
-      images: ['/placeholder-prayer-mat.jpg'],
+      images: ['https://ik.imagekit.io/oqa1rxy6s/unisex/prayer-mat-1.jpg'],
       inStock: true,
       colors: ['Green', 'Blue', 'Red', 'Brown']
     }
@@ -313,7 +313,7 @@ export const islamicProducts = {
       originalPrice: 65,
       category: 'Prayer Items',
       subcategory: 'Digital Tasbeeh',
-      images: ['/placeholder-tasbeeh.jpg'],
+      images: ['https://ik.imagekit.io/oqa1rxy6s/unisex/digital-tasbeeh-1.jpg'],
       inStock: true
     }
   ],
@@ -328,7 +328,7 @@ export const islamicProducts = {
       category: 'Prayer Items',
       subcategory: 'Miswaak',
       type: 'Arak Miswak (peelu)',
-      images: ['/placeholder-miswaak.jpg'],
+      images: ['https://ik.imagekit.io/oqa1rxy6s/unisex/miswaak-1.jpg'],
       inStock: true
     },
     {
@@ -340,7 +340,7 @@ export const islamicProducts = {
       category: 'Prayer Items',
       subcategory: 'Miswaak',
       type: 'Olive Miswak (Zaintoon)',
-      images: ['/placeholder-miswaak.jpg'],
+      images: ['https://ik.imagekit.io/oqa1rxy6s/unisex/miswaak-1.jpg'],
       inStock: true
     },
     {
@@ -352,7 +352,7 @@ export const islamicProducts = {
       category: 'Prayer Items',
       subcategory: 'Miswaak',
       type: 'Neem Miswak',
-      images: ['/placeholder-miswaak.jpg'],
+      images: ['https://ik.imagekit.io/oqa1rxy6s/unisex/miswaak-1.jpg'],
       inStock: true
     },
     {
@@ -364,7 +364,7 @@ export const islamicProducts = {
       category: 'Prayer Items',
       subcategory: 'Miswaak',
       type: 'Drumstick Miswak (Sukhchain)',
-      images: ['/placeholder-miswaak.jpg'],
+      images: ['https://ik.imagekit.io/oqa1rxy6s/unisex/miswaak-1.jpg'],
       inStock: true
     },
     {
@@ -376,7 +376,7 @@ export const islamicProducts = {
       category: 'Prayer Items',
       subcategory: 'Miswaak',
       type: 'Moringa Tree Miswaak',
-      images: ['/placeholder-miswaak.jpg'],
+      images: ['https://ik.imagekit.io/oqa1rxy6s/unisex/miswaak-1.jpg'],
       inStock: true
     }
   ],
@@ -392,7 +392,7 @@ export const islamicProducts = {
       category: 'Islamic Items',
       subcategory: 'Rings (Silver)',
       gender: 'Men',
-      images: ['/placeholder-ring.jpg'],
+      images: ['https://ik.imagekit.io/oqa1rxy6s/unisex/silver-ring-1.jpg'],
       inStock: true,
       sizes: ['6', '7', '8', '9', '10', '11']
     },
@@ -405,7 +405,7 @@ export const islamicProducts = {
       category: 'Islamic Items',
       subcategory: 'Rings (Silver)',
       gender: 'Women',
-      images: ['/placeholder-ring.jpg'],
+      images: ['https://ik.imagekit.io/oqa1rxy6s/unisex/silver-ring-1.jpg'],
       inStock: true,
       sizes: ['5', '6', '7', '8', '9']
     }
@@ -421,7 +421,7 @@ export const islamicProducts = {
       originalPrice: 90,
       category: 'Prayer Items',
       subcategory: 'Qibla Compass',
-      images: ['/placeholder-compass.jpg'],
+      images: ['https://ik.imagekit.io/oqa1rxy6s/unisex/qibla-compass-1.jpg'],
       inStock: true
     }
   ],
@@ -435,7 +435,7 @@ export const islamicProducts = {
       originalPrice: 25,
       category: 'Prayer Items',
       subcategory: 'Sufianah Keychains',
-      images: ['/placeholder-keychain.jpg'],
+      images: ['https://ik.imagekit.io/oqa1rxy6s/unisex/sufianah-keychain-1.jpg'],
       inStock: true
     }
   ]
