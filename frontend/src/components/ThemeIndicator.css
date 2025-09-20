@@ -1,0 +1,80 @@
+.theme-indicator {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1001;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: var(--card-bg);
+  padding: 0.5rem 1rem;
+  border-radius: 25px;
+  box-shadow: 0 4px 12px var(--shadow-color);
+  border: 1px solid var(--border-color);
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.theme-dot {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+.theme-dot {
+  background: linear-gradient(135deg, #1A1625 0%, #2D2438 50%, #3D3449 100%);
+  border: 2px solid #4A3A5A;
+}
+
+.theme-dot.transitioning {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px var(--accent-primary);
+}
+
+.theme-icon {
+  color: #E2E8F0;
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.theme-dot.transitioning .theme-icon {
+  animation: spin 0.5s ease-in-out;
+}
+
+.theme-text {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  white-space: nowrap;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 768px) {
+  .theme-indicator {
+    top: 10px;
+    right: 10px;
+    padding: 0.375rem 0.75rem;
+  }
+
+  .theme-dot {
+    width: 28px;
+    height: 28px;
+  }
+
+  .theme-text {
+    font-size: 0.75rem;
+  }
+}

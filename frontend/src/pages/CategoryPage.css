@@ -1,0 +1,308 @@
+/* Category Page Styles */
+.category-page {
+  padding: 2rem 0 4rem;
+  min-height: 80vh;
+  background: linear-gradient(135deg, var(--bg-primary) 0%, var(--bg-secondary) 100%);
+  transition: all 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.category-header {
+  text-align: center;
+  margin-bottom: 3rem;
+  padding: 2rem 0;
+}
+
+.category-title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  font-family: var(--font-primary);
+  background: linear-gradient(45deg, var(--jewelry-gold), var(--primary-gold));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-shadow: 0 0 20px rgba(139, 105, 20, 0.3);
+}
+
+.category-subtitle {
+  font-size: 1.25rem;
+  color: var(--text-secondary);
+  max-width: 600px;
+  margin: 0 auto 1.5rem;
+  line-height: 1.6;
+}
+
+.breadcrumb {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.breadcrumb span {
+  margin: 0 0.5rem;
+}
+
+.breadcrumb span:first-child {
+  margin-left: 0;
+}
+
+/* Category Filters */
+.category-filters {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background: linear-gradient(135deg, var(--card-bg) 0%, var(--darkish-purple-matte) 100%);
+  border: 1px solid rgba(139, 105, 20, 0.2);
+  border-radius: 16px;
+  backdrop-filter: blur(10px);
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.search-section {
+  flex: 1;
+  min-width: 250px;
+}
+
+.search-input {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 2px solid rgba(139, 105, 20, 0.3);
+  border-radius: 8px;
+  background: linear-gradient(135deg, rgba(15, 5, 25, 0.8), rgba(26, 11, 46, 0.6));
+  color: var(--text-primary);
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: var(--jewelry-gold);
+  box-shadow: 0 0 0 3px rgba(139, 105, 20, 0.2);
+}
+
+.search-input::placeholder {
+  color: var(--text-muted);
+}
+
+.filter-section, .sort-section {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.filter-section label, .sort-section label {
+  color: var(--text-secondary);
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.filter-section select, .sort-section select {
+  padding: 0.5rem 1rem;
+  border: 2px solid rgba(139, 105, 20, 0.3);
+  border-radius: 8px;
+  background: linear-gradient(135deg, rgba(15, 5, 25, 0.8), rgba(26, 11, 46, 0.6));
+  color: var(--text-primary);
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  min-width: 150px;
+}
+
+.filter-section select:focus, .sort-section select:focus {
+  outline: none;
+  border-color: var(--jewelry-gold);
+  box-shadow: 0 0 0 3px rgba(139, 105, 20, 0.2);
+}
+
+/* Subcategory Navigation */
+.subcategory-nav {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  background: linear-gradient(135deg, var(--darkish-purple-matte) 0%, var(--darkish-purple) 100%);
+  border-radius: 12px;
+  overflow-x: auto;
+  scrollbar-width: thin;
+  scrollbar-color: var(--jewelry-gold) transparent;
+}
+
+.subcategory-nav::-webkit-scrollbar {
+  height: 4px;
+}
+
+.subcategory-nav::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.subcategory-nav::-webkit-scrollbar-thumb {
+  background: var(--jewelry-gold);
+  border-radius: 2px;
+}
+
+.subcategory-link {
+  padding: 0.75rem 1.5rem;
+  background: transparent;
+  color: var(--text-secondary);
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 500;
+  white-space: nowrap;
+  transition: all 0.3s ease;
+  border: 1px solid transparent;
+}
+
+.subcategory-link:hover {
+  color: var(--jewelry-gold);
+  background: rgba(139, 105, 20, 0.1);
+  border-color: rgba(139, 105, 20, 0.3);
+}
+
+.subcategory-link.active {
+  background: linear-gradient(135deg, var(--jewelry-gold), var(--primary-gold));
+  color: var(--black);
+  border-color: var(--jewelry-gold);
+  box-shadow: 0 2px 8px rgba(139, 105, 20, 0.3);
+}
+
+/* Category Info */
+.category-info {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.info-card {
+  background: linear-gradient(135deg, var(--card-bg) 0%, var(--darkish-purple-matte) 100%);
+  border: 1px solid rgba(139, 105, 20, 0.2);
+  border-radius: 12px;
+  padding: 1.5rem;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.info-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(139, 105, 20, 0.2);
+  border-color: rgba(139, 105, 20, 0.4);
+}
+
+.info-card h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 0.5rem;
+  font-family: var(--font-primary);
+  background: linear-gradient(45deg, var(--jewelry-gold), var(--primary-gold));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.info-card p {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+/* Products Section */
+.products-section {
+  margin-top: 2rem;
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.loading {
+  text-align: center;
+  padding: 4rem 2rem;
+  color: var(--text-secondary);
+  font-size: 1.1rem;
+}
+
+.no-products {
+  text-align: center;
+  padding: 4rem 2rem;
+  color: var(--text-secondary);
+}
+
+.no-products p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .category-title {
+    font-size: 2.5rem;
+  }
+
+  .category-subtitle {
+    font-size: 1.1rem;
+  }
+
+  .category-filters {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 1rem;
+  }
+
+  .search-section {
+    min-width: auto;
+  }
+
+  .filter-section, .sort-section {
+    justify-content: space-between;
+  }
+
+  .subcategory-nav {
+    gap: 0.5rem;
+    padding: 0.75rem;
+  }
+
+  .subcategory-link {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+  }
+
+  .category-info {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .products-grid {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .category-title {
+    font-size: 2rem;
+  }
+
+  .category-subtitle {
+    font-size: 1rem;
+  }
+
+  .category-filters {
+    padding: 1rem;
+  }
+
+  .filter-section select, .sort-section select {
+    min-width: 120px;
+  }
+
+  .products-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
