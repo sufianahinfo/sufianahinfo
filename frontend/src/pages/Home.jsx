@@ -220,7 +220,7 @@ const Home = () => {
           
           <div className="product-grid">
             {getAllProducts()
-              .filter(product => product.category === 'Men')
+              .filter(product => product.category === 'Men' && !product.isComingSoon)
               .slice(0, 4)
               .map((product) => (
                 <ProductCard key={product.id} product={product} />
@@ -245,7 +245,7 @@ const Home = () => {
           
           <div className="product-grid">
             {getAllProducts()
-              .filter(product => product.category === 'Women')
+              .filter(product => product.category === 'Women' && !product.isComingSoon)
               .slice(0, 4)
               .map((product) => (
                 <ProductCard key={product.id} product={product} />
@@ -270,7 +270,7 @@ const Home = () => {
           
           <div className="product-grid">
             {getAllProducts()
-              .filter(product => product.category === 'Unisex')
+              .filter(product => product.category === 'Unisex' && !product.isComingSoon)
               .slice(0, 4)
               .map((product) => (
                 <ProductCard key={product.id} product={product} />

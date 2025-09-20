@@ -39,8 +39,8 @@ export const islamicProducts = {
     dailyWear: [
       {
         id: 'mens-daily-1',
-        title: 'Oud Al Aswad',
-        description: 'Premium black oud for daily wear - subtle and long-lasting',
+        title: 'Blue Desert',
+        description: 'Premium blue desert fragrance for daily wear - subtle and long-lasting',
         price: 450,
         originalPrice: 650,
         category: 'Men',
@@ -48,14 +48,14 @@ export const islamicProducts = {
         fragranceFamily: 'Woody',
         season: 'All Season',
         type: 'Attars / Oils',
-        images: ['https://ik.imagekit.io/oqa1rxy6s/assets/men/oud-al-aswad.jpg'],
+        images: ['https://ik.imagekit.io/oqa1rxy6s/assets/women/coming-soon.jpg'],
         inStock: true,
         isIslamic: true
       },
       {
         id: 'mens-daily-2', 
-        title: 'Rose Water Attar',
-        description: 'Pure rose water attar - gentle and refreshing for daily use',
+        title: 'Marjan',
+        description: 'Elegant marjan fragrance - gentle and refreshing for daily use',
         price: 280,
         originalPrice: 380,
         category: 'Men',
@@ -63,7 +63,7 @@ export const islamicProducts = {
         fragranceFamily: 'Floral',
         season: 'Summer',
         type: 'Attars / Oils',
-        images: ['https://ik.imagekit.io/oqa1rxy6s/assets/men/oud-al-aswad.jpg'],
+        images: ['https://ik.imagekit.io/oqa1rxy6s/assets/men/marjan.jpeg'],
         inStock: true,
         isIslamic: true
       }
@@ -71,69 +71,73 @@ export const islamicProducts = {
     officeWear: [
       {
         id: 'mens-office-1',
-        title: 'Sandalwood Supreme',
-        description: 'Professional sandalwood fragrance perfect for office environment',
-        price: 520,
-        originalPrice: 720,
+        title: 'Coming Soon',
+        description: 'New office wear fragrances coming soon',
+        price: 0,
+        originalPrice: 0,
         category: 'Men',
         subcategory: 'Office Wear',
         fragranceFamily: 'Woody',
         season: 'All Season',
         type: 'Eau de Parfum',
-        images: ['https://ik.imagekit.io/oqa1rxy6s/assets/men/oud-al-aswad.jpg'],
-        inStock: true,
-        isIslamic: true
+        images: ['https://ik.imagekit.io/oqa1rxy6s/assets/men/coming-soon.jpg'],
+        inStock: false,
+        isIslamic: true,
+        isComingSoon: true
       }
     ],
     partyWear: [
       {
         id: 'mens-party-1',
-        title: 'Amber Royal',
-        description: 'Luxurious amber blend for special occasions and celebrations',
-        price: 680,
-        originalPrice: 950,
+        title: 'Coming Soon',
+        description: 'New party wear fragrances coming soon',
+        price: 0,
+        originalPrice: 0,
         category: 'Men',
         subcategory: 'Party Wear',
         fragranceFamily: 'Oriental',
         season: 'Winter',
         type: 'Eau de Parfum',
-        images: ['https://ik.imagekit.io/oqa1rxy6s/assets/men/oud-al-aswad.jpg'],
-        inStock: true,
-        isIslamic: true
+        images: ['https://ik.imagekit.io/oqa1rxy6s/assets/men/coming-soon.jpg'],
+        inStock: false,
+        isIslamic: true,
+        isComingSoon: true
       }
     ],
     premium: [
       {
         id: 'mens-premium-1',
-        title: 'Black Oud Collection',
-        description: 'Exclusive black oud collection - the finest quality available',
-        price: 1200,
-        originalPrice: 1800,
+        title: 'Coming Soon',
+        description: 'New premium fragrances coming soon',
+        price: 0,
+        originalPrice: 0,
         category: 'Men',
         subcategory: 'Premium',
         fragranceFamily: 'Woody',
         season: 'All Season',
         type: 'Attars / Oils',
-        images: ['https://ik.imagekit.io/oqa1rxy6s/assets/men/oud-al-aswad.jpg'],
-        inStock: true,
-        isIslamic: true
+        images: ['https://ik.imagekit.io/oqa1rxy6s/assets/men/coming-soon.jpg'],
+        inStock: false,
+        isIslamic: true,
+        isComingSoon: true
       }
     ],
     islamic: [
       {
         id: 'mens-islamic-1',
-        title: 'Makkah Attar',
-        description: 'Sacred fragrance inspired by the holy city of Makkah',
-        price: 350,
-        originalPrice: 450,
+        title: 'Coming Soon',
+        description: 'New Islamic fragrances coming soon',
+        price: 0,
+        originalPrice: 0,
         category: 'Men',
         subcategory: 'Islamic',
         fragranceFamily: 'Oriental',
         season: 'All Season',
         type: 'Attars / Oils',
-        images: ['https://ik.imagekit.io/oqa1rxy6s/assets/men/oud-al-aswad.jpg'],
-        inStock: true,
-        isIslamic: true
+        images: ['https://ik.imagekit.io/oqa1rxy6s/assets/men/coming-soon.jpg'],
+        inStock: false,
+        isIslamic: true,
+        isComingSoon: true
       }
     ]
   },
@@ -143,16 +147,31 @@ export const islamicProducts = {
     dailyWear: [
       {
         id: 'womens-daily-1',
-        title: 'Jasmine Delight',
-        description: 'Subtle jasmine fragrance perfect for daily wear',
+        title: 'Floral Green',
+        description: 'Fresh floral green fragrance perfect for daily wear',
+        price: 380,
+        originalPrice: 480,
+        category: 'Women',
+        subcategory: 'Daily Wear',
+        fragranceFamily: 'Floral',
+        season: 'Summer',
+        type: 'Eau de Parfum',
+        images: ['https://ik.imagekit.io/oqa1rxy6s/assets/women/floral-green.jpeg'],
+        inStock: true,
+        isIslamic: true
+      },
+      {
+        id: 'womens-daily-2',
+        title: 'Senorita',
+        description: 'Elegant senorita fragrance - gentle and feminine',
         price: 320,
         originalPrice: 420,
         category: 'Women',
         subcategory: 'Daily Wear',
         fragranceFamily: 'Floral',
-        season: 'Summer',
-        type: 'Eau de Toilette',
-        images: ['https://ik.imagekit.io/oqa1rxy6s/assets/men/oud-al-aswad.jpg'],
+        season: 'All Season',
+        type: 'Attars / Oils',
+        images: ['https://ik.imagekit.io/oqa1rxy6s/assets/women/senorita.jpeg'],
         inStock: true,
         isIslamic: true
       }
@@ -160,18 +179,19 @@ export const islamicProducts = {
     officeWear: [
       {
         id: 'womens-office-1',
-        title: 'Lavender Breeze',
-        description: 'Professional lavender scent for workplace',
-        price: 380,
-        originalPrice: 480,
+        title: 'Coming Soon',
+        description: 'New office wear fragrances coming soon',
+        price: 0,
+        originalPrice: 0,
         category: 'Women',
         subcategory: 'Office Wear',
         fragranceFamily: 'Fresh / Citrus',
         season: 'All Season',
         type: 'Eau de Toilette',
-        images: ['https://ik.imagekit.io/oqa1rxy6s/assets/men/oud-al-aswad.jpg'],
-        inStock: true,
-        isIslamic: true
+        images: ['https://ik.imagekit.io/oqa1rxy6s/assets/women/coming-soon.jpg'],
+        inStock: false,
+        isIslamic: true,
+        isComingSoon: true
       }
     ],
     partyWear: [
@@ -186,7 +206,7 @@ export const islamicProducts = {
         fragranceFamily: 'Floral',
         season: 'All Season',
         type: 'Eau de Parfum',
-        images: ['https://ik.imagekit.io/oqa1rxy6s/assets/men/oud-al-aswad.jpg'],
+        images: ['https://ik.imagekit.io/oqa1rxy6s/assets/women/coming-soon.jpg'],
         inStock: true,
         isIslamic: true
       }
@@ -203,7 +223,7 @@ export const islamicProducts = {
         fragranceFamily: 'Oriental',
         season: 'All Season',
         type: 'Eau de Parfum',
-        images: ['https://ik.imagekit.io/oqa1rxy6s/assets/men/oud-al-aswad.jpg'],
+        images: ['https://ik.imagekit.io/oqa1rxy6s/assets/women/coming-soon.jpg'],
         inStock: true,
         isIslamic: true
       }
@@ -220,7 +240,7 @@ export const islamicProducts = {
         fragranceFamily: 'Floral',
         season: 'All Season',
         type: 'Attars / Oils',
-        images: ['https://ik.imagekit.io/oqa1rxy6s/assets/men/oud-al-aswad.jpg'],
+        images: ['https://ik.imagekit.io/oqa1rxy6s/assets/women/coming-soon.jpg'],
         inStock: true,
         isIslamic: true
       }
@@ -444,63 +464,66 @@ export const islamicProducts = {
   unisexFragrances: [
     {
       id: 'unisex-1',
-      title: 'Rose & Oud Blend',
-      description: 'Perfect unisex fragrance combining delicate rose with rich oud',
-      price: 380,
-      originalPrice: 480,
+      title: 'Luxe',
+      description: 'Premium unisex luxury fragrance - sophisticated and elegant',
+      price: 580,
+      originalPrice: 750,
       category: 'Unisex',
-      subcategory: 'Daily Wear',
-      fragranceFamily: 'Floral',
+      subcategory: 'Premium',
+      fragranceFamily: 'Oriental',
       season: 'All Season',
       type: 'Eau de Parfum',
-      images: ['https://ik.imagekit.io/oqa1rxy6s/assets/unisex/rose-oud-blend.jpg'],
+      images: ['https://ik.imagekit.io/oqa1rxy6s/assets/unisex/luxe.jpeg'],
       inStock: true,
       isIslamic: true
     },
     {
       id: 'unisex-2',
-      title: 'Sandalwood & Musk',
-      description: 'Classic unisex blend of sandalwood and white musk',
-      price: 320,
-      originalPrice: 420,
+      title: 'Coming Soon',
+      description: 'New unisex fragrances coming soon',
+      price: 0,
+      originalPrice: 0,
       category: 'Unisex',
       subcategory: 'Daily Wear',
       fragranceFamily: 'Woody',
       season: 'All Season',
       type: 'Attars / Oils',
-      images: ['https://ik.imagekit.io/oqa1rxy6s/assets/unisex/sandalwood-musk.jpg'],
-      inStock: true,
-      isIslamic: true
+      images: ['https://ik.imagekit.io/oqa1rxy6s/assets/unisex/coming-soon.jpg'],
+      inStock: false,
+      isIslamic: true,
+      isComingSoon: true
     },
     {
       id: 'unisex-3',
-      title: 'Amber & Vanilla',
-      description: 'Warm and inviting unisex fragrance with amber and vanilla notes',
-      price: 450,
-      originalPrice: 580,
+      title: 'Coming Soon',
+      description: 'New unisex fragrances coming soon',
+      price: 0,
+      originalPrice: 0,
       category: 'Unisex',
       subcategory: 'Premium',
       fragranceFamily: 'Oriental',
       season: 'Winter',
       type: 'Eau de Parfum',
-      images: ['https://ik.imagekit.io/oqa1rxy6s/assets/unisex/amber-vanilla.jpg'],
-      inStock: true,
-      isIslamic: true
+      images: ['https://ik.imagekit.io/oqa1rxy6s/assets/unisex/coming-soon.jpg'],
+      inStock: false,
+      isIslamic: true,
+      isComingSoon: true
     },
     {
       id: 'unisex-4',
-      title: 'Citrus & Mint',
-      description: 'Fresh and energizing unisex fragrance perfect for summer',
-      price: 280,
-      originalPrice: 380,
+      title: 'Coming Soon',
+      description: 'New unisex fragrances coming soon',
+      price: 0,
+      originalPrice: 0,
       category: 'Unisex',
       subcategory: 'Daily Wear',
       fragranceFamily: 'Fresh / Citrus',
       season: 'Summer',
       type: 'Body Mists',
-      images: ['https://ik.imagekit.io/oqa1rxy6s/assets/unisex/citrus-mint.jpg'],
-      inStock: true,
-      isIslamic: true
+      images: ['https://ik.imagekit.io/oqa1rxy6s/assets/unisex/coming-soon.jpg'],
+      inStock: false,
+      isIslamic: true,
+      isComingSoon: true
     }
   ]
 };
