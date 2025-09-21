@@ -7,32 +7,40 @@
 }
 
 :root {
-  --primary-gold: #B8860B;
-  --dark-gold: #8B6914;
-  --glowing-gold: #CD853F;
-  --jewelry-gold: #8B6914;
-  --black: #000000;
-  --darkish-purple: #1A0B2E;
-  --darkish-purple-matte: #0F0519;
+  --primary-gold: #FFD700;
+  --dark-gold: #B8860B;
+  --glowing-gold: #FFA500;
+  --jewelry-gold: #FFD700;
+  --black: #2C3E50;
+  --darkish-purple: #8E44AD;
+  --darkish-purple-matte: #9B59B6;
+  --light-bg: #F8F9FA;
+  --white: #FFFFFF;
+  --light-gray: #E9ECEF;
+  --medium-gray: #6C757D;
+  --accent-blue: #3498DB;
+  --accent-green: #2ECC71;
+  --accent-pink: #E91E63;
+  --accent-orange: #FF9800;
   --font-primary: 'Playfair Display', serif;
   --font-secondary: 'Inter', sans-serif;
 }
 
-/* Single Theme - Three Colors Only */
+/* Light and Colorful Theme */
 .theme-container {
-  --bg-primary: var(--darkish-purple-matte);
-  --bg-secondary: var(--darkish-purple);
-  --bg-tertiary: var(--black);
-  --text-primary: var(--jewelry-gold);
-  --text-secondary: var(--primary-gold);
-  --text-muted: var(--dark-gold);
-  --accent-primary: var(--jewelry-gold);
-  --accent-secondary: var(--primary-gold);
-  --border-color: var(--darkish-purple);
-  --shadow-color: rgba(139, 105, 20, 0.4);
-  --card-bg: var(--black);
-  --navbar-bg: var(--darkish-purple-matte);
-  --hero-bg: linear-gradient(135deg, var(--darkish-purple-matte) 0%, var(--darkish-purple) 100%);
+  --bg-primary: var(--white);
+  --bg-secondary: var(--light-bg);
+  --bg-tertiary: var(--light-gray);
+  --text-primary: var(--black);
+  --text-secondary: var(--medium-gray);
+  --text-muted: var(--medium-gray);
+  --accent-primary: var(--accent-blue);
+  --accent-secondary: var(--accent-green);
+  --border-color: var(--light-gray);
+  --shadow-color: rgba(52, 152, 219, 0.2);
+  --card-bg: var(--white);
+  --navbar-bg: var(--white);
+  --hero-bg: linear-gradient(135deg, var(--accent-blue) 0%, var(--darkish-purple) 50%, var(--accent-pink) 100%);
 }
 
 /* Theme Transitions */
@@ -65,7 +73,7 @@ body::before {
   left: 0;
   width: 100%;
   height: 100%;
-  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grain" width="100" height="100" patternUnits="userSpaceOnUse"><circle cx="50" cy="50" r="0.5" fill="%238B6914" opacity="0.03"/></pattern></defs><rect width="100" height="100" fill="url(%23grain)"/></svg>');
+  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grain" width="100" height="100" patternUnits="userSpaceOnUse"><circle cx="50" cy="50" r="0.5" fill="%233498DB" opacity="0.05"/></pattern></defs><rect width="100" height="100" fill="url(%23grain)"/></svg>');
   pointer-events: none;
   z-index: -1;
 }

@@ -31,13 +31,12 @@
   font-size: 5rem;
   font-weight: 700;
   margin-bottom: 1.5rem;
-  background: linear-gradient(45deg, var(--jewelry-gold), var(--primary-gold), var(--dark-gold));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: #000000;
   transition: all 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   font-family: var(--font-primary);
-  text-shadow: 0 0 30px rgba(139, 105, 20, 0.8);
+  -webkit-text-stroke: 2px #FFD700;
+  text-stroke: 2px #FFD700;
+  text-shadow: 0 0 15px rgba(255, 215, 0, 0.6);
   letter-spacing: 2px;
   line-height: 1.1;
 }
@@ -92,36 +91,36 @@
 }
 
 .btn-primary {
-  background: linear-gradient(135deg, var(--jewelry-gold), var(--primary-gold));
-  color: var(--card-bg);
-  box-shadow: 0 6px 20px rgba(139, 105, 20, 0.4),
-              0 2px 8px rgba(0, 0, 0, 0.3);
+  background: linear-gradient(135deg, var(--accent-blue), var(--accent-green));
+  color: var(--white);
+  box-shadow: 0 6px 20px rgba(52, 152, 219, 0.4),
+              0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .btn-primary:hover {
-  background: linear-gradient(135deg, var(--jewelry-gold), var(--dark-gold));
+  background: linear-gradient(135deg, var(--accent-green), var(--accent-blue));
   transform: translateY(-3px);
-  box-shadow: 0 8px 25px rgba(139, 105, 20, 0.5),
-              0 4px 12px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 8px 25px rgba(52, 152, 219, 0.5),
+              0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 .btn-secondary {
   background: transparent;
-  color: var(--text-primary);
-  border: 2px solid var(--jewelry-gold);
+  color: var(--accent-blue);
+  border: 2px solid var(--accent-blue);
   backdrop-filter: blur(10px);
 }
 
 .btn-secondary:hover {
-  background: linear-gradient(135deg, var(--jewelry-gold), var(--primary-gold));
-  color: var(--card-bg);
+  background: linear-gradient(135deg, var(--accent-blue), var(--accent-green));
+  color: var(--white);
   transform: translateY(-3px);
-  box-shadow: 0 6px 20px rgba(139, 105, 20, 0.3);
+  box-shadow: 0 6px 20px rgba(52, 152, 219, 0.3);
 }
 
 .featured-section {
   padding: 4rem 0;
-  background-color: var(--bg-secondary);
+  background: linear-gradient(135deg, var(--light-bg) 0%, rgba(52, 152, 219, 0.05) 50%, rgba(46, 204, 113, 0.05) 100%);
   transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -132,10 +131,11 @@
   color: var(--text-primary);
   transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
   font-family: var(--font-primary);
-  background: linear-gradient(45deg, var(--jewelry-gold), var(--primary-gold), var(--dark-gold));
+  background: linear-gradient(45deg, var(--accent-blue), var(--accent-green));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  text-shadow: 0 0 15px rgba(52, 152, 219, 0.3);
 }
 
 .section-subtitle {
@@ -169,8 +169,8 @@
 }
 
 .category-card {
-  background: linear-gradient(135deg, var(--card-bg) 0%, var(--darkish-purple-matte) 100%);
-  border: 1px solid rgba(139, 105, 20, 0.2);
+  background: linear-gradient(135deg, var(--light-bg) 0%, var(--white) 100%);
+  border: 2px solid rgba(52, 152, 219, 0.3);
   border-radius: 16px;
   padding: 2rem;
   text-align: center;
@@ -178,6 +178,7 @@
   position: relative;
   overflow: hidden;
   backdrop-filter: blur(10px);
+  box-shadow: 0 6px 20px rgba(52, 152, 219, 0.2);
 }
 
 .category-card::before {
@@ -187,7 +188,7 @@
   left: -100%;
   width: 100%;
   height: 100%;
-  background: linear-gradient(90deg, transparent, rgba(139, 105, 20, 0.1), transparent);
+  background: linear-gradient(90deg, transparent, rgba(52, 152, 219, 0.1), transparent);
   transition: left 0.6s ease;
 }
 
@@ -197,9 +198,10 @@
 
 .category-card:hover {
   transform: translateY(-8px);
-  box-shadow: 0 12px 30px rgba(139, 105, 20, 0.3),
-              0 6px 15px rgba(0, 0, 0, 0.4);
-  border-color: rgba(139, 105, 20, 0.4);
+  box-shadow: 0 15px 35px rgba(52, 152, 219, 0.4),
+              0 8px 20px rgba(46, 204, 113, 0.2);
+  border-color: rgba(46, 204, 113, 0.5);
+  background: linear-gradient(135deg, var(--white) 0%, var(--light-bg) 100%);
 }
 
 .category-icon {
@@ -219,7 +221,7 @@
   color: var(--text-primary);
   margin-bottom: 1rem;
   font-family: var(--font-primary);
-  background: linear-gradient(45deg, var(--jewelry-gold), var(--primary-gold));
+  background: linear-gradient(45deg, var(--accent-blue), var(--accent-green));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -239,7 +241,7 @@
 /* Featured Products Section */
 .featured-products-section {
   padding: 4rem 0;
-  background: linear-gradient(135deg, var(--bg-secondary) 0%, var(--darkish-purple-matte) 100%);
+  background: linear-gradient(135deg, rgba(46, 204, 113, 0.05) 0%, var(--light-bg) 50%, rgba(52, 152, 219, 0.05) 100%);
   transition: all 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
@@ -280,10 +282,11 @@
   font-size: 2rem;
   margin-bottom: 1rem;
   font-family: var(--font-primary);
-  background: linear-gradient(45deg, var(--jewelry-gold), var(--primary-gold), var(--dark-gold));
+  background: linear-gradient(45deg, var(--accent-blue), var(--accent-green));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  text-shadow: 0 0 15px rgba(52, 152, 219, 0.3);
 }
 
 .newsletter-subtitle {
@@ -413,11 +416,11 @@
   font-size: 3rem;
   font-family: var(--font-primary);
   margin-bottom: 1.5rem;
-  background: linear-gradient(45deg, var(--jewelry-gold), var(--primary-gold), var(--glowing-gold));
+  background: linear-gradient(45deg, var(--accent-blue), var(--accent-green), var(--accent-pink));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  text-shadow: 0 0 20px rgba(139, 105, 20, 0.3);
+  text-shadow: 0 0 20px rgba(52, 152, 219, 0.3);
   position: relative;
   z-index: 1;
 }
@@ -499,11 +502,11 @@
   font-size: 2rem;
   font-family: var(--font-primary);
   margin-bottom: 0.5rem;
-  background: linear-gradient(45deg, var(--jewelry-gold), var(--primary-gold));
+  background: linear-gradient(45deg, var(--accent-blue), var(--accent-green));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  text-shadow: 0 0 15px rgba(139, 105, 20, 0.5);
+  text-shadow: 0 0 15px rgba(52, 152, 219, 0.5);
 }
 
 .showcase-item-description {

@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import { CartProvider } from './context/CartContext'
 import { ThemeProvider } from './context/ThemeContext'
 import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 import Home from './pages/Home'
 import Catalog from './pages/Catalog'
 import Product from './pages/Product'
@@ -98,6 +99,7 @@ function App() {
                     } />
                   </Routes>
             </main>
+            <Footer />
           </div>
         </Router>
       </CartProvider>
